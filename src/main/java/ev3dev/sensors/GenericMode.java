@@ -33,7 +33,7 @@ public class GenericMode implements SensorMode {
             final int sampleSize,
             final String modeName) {
         this(pathDevice, sampleSize, modeName,
-                Float.MIN_VALUE, Float.MAX_VALUE, 1.0f);
+                -Float.MAX_VALUE, Float.MAX_VALUE, 1.0f);
     }
 
     /**
